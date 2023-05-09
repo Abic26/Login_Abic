@@ -5,6 +5,13 @@ body{
 
 
 }
+.bodys{
+      background: url(fondo.png), #976943;
+    background: url(fondo.png), -webkit-gradient(linear, right top, left top, from(#978143), to(#dc2430));
+    background: url(fondo.png), linear-gradient(to left,#dc2430 , #979343)
+
+
+}
 .login{
     font-weight: 600;
     margin-left: 40%;
@@ -19,6 +26,7 @@ body{
     -moz-box-shadow: -1px 15px 18px 9px rgba(9, 45, 75, 0.543);
     box-shadow: -1px 15px 18px 9px rgba(9, 45, 75, 0.593);
 }
+
 p{
     font-size: 20px;
 }
